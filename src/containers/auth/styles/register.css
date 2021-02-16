@@ -122,6 +122,12 @@ body {
     margin-top: 10vh;
     width: 30%;
     position: absolute;
+    -webkit-animation-name: animateScreen;
+    -webkit-animation-duration: 2s;
+    animation-name: animateScreen;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-play-state: running;
 }
 
 .auth__input {
