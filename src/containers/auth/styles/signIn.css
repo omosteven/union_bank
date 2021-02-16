@@ -1,0 +1,148 @@
+.authCard {
+    margin-left: 60%;
+    width: 30%;
+    position: absolute;
+    height: 85vh;
+    margin-top: 5vh;
+}
+
+.auth__input:focus {
+    background-color: rgba(18, 83, 19, 0);
+    color: rgba(18, 83, 19, 1);
+}
+
+
+/* .aut__-input[type="text"]::placeholder {
+    margin-left: 5%;
+} */
+
+.form__line {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.martln {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(18, 83, 19, 1);
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    display: none;
+}
+
+.martLn__promote {
+    font-size: 0.9em;
+    color: rgba(18, 83, 19, 0.75);
+    font-weight: bold;
+}
+
+.martln__signin__desktop {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(18, 83, 19, 1);
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+.forgot {
+    font-size: 0.9em;
+    color: rgba(18, 83, 19, 0.75);
+    text-decoration: none;
+}
+
+.forgotPassword {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    float: right;
+    font-weight: bold;
+}
+
+.authBtn__register {
+    border: none;
+    background-color: rgba(18, 83, 19, 0.8);
+    color: white;
+    height: 3.5em;
+    width: 100%;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    font-weight: bold;
+    border: none;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+}
+
+.authBtn__register:hover {
+    background-color: rgba(18, 83, 19, 1);
+}
+
+@media screen and (max-width: 920px) {
+    .authCard {
+        /* height: 100vh; */
+        /* align-self: center; */
+        /* position: relative; */
+        margin-left: 50%;
+        /* margin-top: 2em; */
+        width: 45%;
+        position: absolute;
+    }
+    /* .martLn__promote__desktop {
+        font-size: 0.2em;
+    } */
+}
+
+@media screen and (max-width: 720px) {
+    .authCard {
+        /* height: 100vh; */
+        align-self: center;
+        position: relative;
+        margin-left: 10%;
+        margin-top: 2em;
+        width: 80%;
+        /* position: absolute; */
+    }
+    .authCardDisplay {
+        position: absolute;
+        width: 40%;
+        height: 100vh;
+        display: none;
+    }
+    .martLn__promote__desktop {
+        display: none;
+    }
+    .martln__signin__desktop {
+        display: none;
+    }
+    .martln {
+        display: block;
+    }
+    .martLn__promote {
+        display: block;
+    }
+    .forgotPassword {
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        float: right;
+        font-weight: bold;
+    }
+    .auth__input {
+        height: 50px;
+    }
+}
+
+
+/* Recover account */
+
+.recover--input {
+    margin-bottom: 1.5em;
+}
+
+.recover--head {
+    margin-top: 3em;
+}

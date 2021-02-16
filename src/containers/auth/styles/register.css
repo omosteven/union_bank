@@ -1,0 +1,289 @@
+body {
+    position: relative;
+    /* font-family: Roboto; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.auth__input__error {
+    margin-top: 1em;
+    margin-bottom: -0.5em;
+    color: rgba(250, 0, 0, 0.75);
+    margin-left: 1.5em;
+    /* font-size: 0.8em; */
+}
+
+.auth__over {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    margin-left: 50%;
+    z-index: 1;
+}
+
+.auth__over__close {
+    display: none;
+}
+
+.auth__over__msg {
+    text-align: center;
+    margin-top: 40vh;
+    color: rgba(18, 83, 19, 1);
+    /* display: none; */
+}
+
+.auth__over__res1 {
+    text-align: center;
+    margin-top: 30vh;
+    color: rgba(18, 83, 19, 1);
+    /* line-height: 2em; */
+}
+
+.auth__over__res2 {
+    text-align: center;
+    /* margin-top: 1em; */
+    color: rgba(5, 5, 5, 0.75);
+    line-height: 2em;
+    width: 70%;
+    margin-left: 15%;
+    /* color: red; */
+}
+
+.authCardDisplay {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.7)), url('../images/2_how-to-invest-648x364-c-default.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.martln__register__desktop {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(18, 83, 19, 1);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.martLn__promote__desktop {
+    font-size: 0.9em;
+    /* */
+    font-style: normal;
+    font-weight: bold;
+    line-height: 23px;
+    color: rgba(18, 83, 19, 0.75);
+}
+
+.martln__desktop {
+    margin-top: 5em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 42px;
+    color: #ffffff;
+    margin-left: 1em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promote__desktop {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 2.3em;
+    margin-top: 0.5em;
+}
+
+.desc__desktop {
+    width: 70%;
+    margin-top: 0.5em;
+    margin-left: 1.8em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.desc__desktop {
+    font-size: 1em;
+    margin-left: 1.4em;
+    /* width: 0% */
+}
+
+.authCardRegister {
+    height: 80vh;
+    /* align-self: center; */
+    /* position: relative; */
+    margin-left: 60%;
+    margin-top: 10vh;
+    width: 30%;
+    position: absolute;
+}
+
+.auth__input {
+    background-color: rgba(18, 83, 19, 0.1);
+    color: rgba(18, 83, 19, 0.75);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid rgba(5, 5, 5, 0.1);
+    height: 50px;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s;
+    -ms-transition: background-color 0.5s, color 0.5s;
+    -o-transition: background-color 0.5s, color 0.5s;
+    outline: none;
+}
+
+.auth__input:focus {
+    background-color: rgba(18, 83, 19, 0);
+    color: rgba(18, 83, 19, 1);
+}
+
+
+/* .auth-input[type="text"]::placeholder {
+    margin-left: 5%;
+} */
+
+.form__line__register {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.martln__register {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(18, 83, 19, 1);
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    display: none;
+}
+
+.martLn__promote {
+    font-size: 0.9em;
+    font-weight: bold;
+    display: none;
+}
+
+.forgot {
+    font-size: 0.9em;
+    color: rgba(18, 83, 19, 0.75);
+    text-decoration: none;
+}
+
+.authBtn {
+    border: none;
+    background-color: rgba(18, 83, 19, 1);
+    color: white;
+    height: 3em;
+    height: 55px;
+    width: 100%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 2px 2px rgba(18, 83, 19, 1), 0px 3px 2px rgba(18, 83, 19, 1);
+    transition: height 0.5s, width 0.5s;
+    -webkit-transition: height 0.5s, width 0.5s;
+    -moz-transition: height 0.5s, width 0.5s;
+    -ms-transition: height 0.5s, width 0.5s;
+    -o-transition: height 0.5s, width 0.5s;
+}
+
+.authBtn:hover {
+    /* height: 45px; */
+    width: 90%;
+    margin-left: 5%;
+    /* margin-top: -0.5em;
+    margin-bottom: -0.5em; */
+}
+
+.accountLink {
+    margin-top: 3em;
+    text-align: center;
+    color: rgba(18, 83, 19, 0.75);
+}
+
+.account__href {
+    color: rgba(18, 83, 19, 0.75);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.agree {
+    color: rgba(5, 5, 5, 0.75);
+    font-weight: normal;
+}
+
+@media screen and (max-width: 920px) {
+    .authCardRegister {
+        /* height: 100vh; */
+        /* align-self: center; */
+        /* position: relative; */
+        margin-left: 50%;
+        /* margin-top: 2em; */
+        width: 45%;
+        position: absolute;
+    }
+    .authCardDisplay {
+        width: 45%;
+    }
+    .martln__desktop {
+        font-size: 1.3em;
+        margin-top: 6em;
+    }
+    .promote__desktop {
+        margin-left: 1.3em;
+        font-size: 1em;
+    }
+    .desc__desktop {
+        font-size: 1em;
+        margin-left: 1.4em;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .authCardRegister {
+        /* height: 100vh; */
+        align-self: center;
+        position: relative;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .authCardDisplay {
+        position: absolute;
+        width: 40%;
+        height: 100vh;
+        display: none;
+    }
+    .auth__over {
+        width: 100%;
+        margin-left: 0;
+        height: 105vh;
+    }
+    .martLn__promote__desktop {
+        display: none;
+    }
+    .martln__register__desktop {
+        display: none;
+    }
+    .martln__register {
+        display: block;
+    }
+    .martLn__promote {
+        display: block;
+    }
+}
