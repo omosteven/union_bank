@@ -224,7 +224,7 @@ body {
 
 .agree {
     color: rgba(5, 5, 5, 0.75);
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 
 @media screen and (max-width: 920px) {

@@ -194,7 +194,7 @@ const Register = () => {
                     </form>
 
                     <h6 className="agree">
-                        By signing up, ypu agree to our Terms of Service and Privacy Policy.
+                        By signing up, you agree to our Terms of Service and Privacy Policy.
                     </h6>
 
                     <h5 className="accountLink">
